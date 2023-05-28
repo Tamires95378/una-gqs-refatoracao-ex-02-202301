@@ -6,7 +6,7 @@ public class ValidacaoGenero {
 
     public String genero() {
 
-        System.out.print("Informe o gênero (M = Mulher H = Homem):" );
+        System.out.print("Informe o gênero (M/H):" );
         String sexo= scanner.next();
 
         if(sexo.equalsIgnoreCase("M")){

@@ -4,7 +4,7 @@ public class ValidacaoIdadeHomem {
 
     Scanner scanner = new Scanner(System.in);
 	
-    public static String IdadeValidacao(){
+    public  String IdadeValidacao(){
         
         int idade;
         System.out.print("Informe a Idade cliente: ");
