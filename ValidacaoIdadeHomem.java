@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ValidacaoIdadeHomem {
 
-    Scanner scanner= new Scanner(System.in);
-
+    Scanner scanner = new Scanner(System.in);
+	
     public static String IdadeValidacao(){
-        int idade;
         
+        int idade;
         System.out.print("Informe a Idade cliente: ");
         idade = scanner.nextInt();
         
