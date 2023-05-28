@@ -12,7 +12,7 @@ public class ValidacaoGenero {
         if(sexo.equalsIgnoreCase("M")){
             return "M";
 
-        } else if(sexo.equalsIgnore("H")){
+        } else if(sexo.equalsIgnoreCase("H")){
             return "H";
 
         }
