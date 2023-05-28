@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class ValidacaoIdadeHomem {
+    
     Scanner scanner= new Scanner(System.in);
+
     public static String IdadeValidacao(){
         int idade;
         
