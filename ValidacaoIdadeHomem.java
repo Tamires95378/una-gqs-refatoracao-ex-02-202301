@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class ValidacaoIdadeHomem {
-    
+
     Scanner scanner= new Scanner(System.in);
 
     public static String IdadeValidacao(){
         int idade;
         
         System.out.print("Informe a Idade cliente: ");
-        idade=scanner.nextInt();
+        idade = scanner.nextInt();
         
         if (idade <= 15) {
 			return "60.0";
