@@ -10,13 +10,13 @@ public class ValidacaoGenero {
         String sexo= scanner.next();
 
         if(sexo.equalsIgnore.Case("M")){
-            return = "M";
+            return "M";
 
         } else if(sexo.equalsIgnore.Case("H")){
-            return ="H";
+            return "H";
 
         }
-        return = "Inválido";
+        return  "Inválido";
     }
     
 }
