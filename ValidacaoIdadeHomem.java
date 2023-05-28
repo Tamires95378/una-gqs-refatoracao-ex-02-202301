@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ValidacaoIdadeHomem {
     Scanner scanner= new Scanner(System.in);
-    public String IdadeValidacao(){
+    public static String IdadeValidacao(){
         int idade;
         
         System.out.print("Informe a Idade cliente: ");

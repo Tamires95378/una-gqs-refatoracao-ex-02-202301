@@ -9,22 +9,22 @@ public class Programa {
 		ValidacaoGenero validacaoGenero = new ValidacaoGenero();
     
     String genero,mensalidade;
-    genero = validacao.genero();
+    genero = validacaoGenero.genero();
 
-    if (genero == H) {
-      mensalidade = ValidacaoIdadeHomem.idadeValidacao();
+    if (genero == "H") {
+      mensalidade = validacaoIdadeHomem.idadeValidacao();
     }
 
-    else (genero == M) {
+    else if (genero == "M") {
       mensalidade = validacaoIdadeMulher.IdadeValidacao();
     }
     
     else {
       mensalidade = "inválido";
     }
-    }
-
+    
     System.out.println("Valor da mensalidade: R$" + mensalidade);
 
     scanner.close();
+}
 }
