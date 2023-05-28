@@ -9,10 +9,10 @@ public class ValidacaoGenero {
         System.out.print("Informe o gênero (M = Mulher H = Homem):" );
         String sexo= scanner.next();
 
-        if(sexo.equalsIgnore.case("M")){
+        if(sexo.equalsIgnore.Case("M")){
             return = "M";
 
-        } else if(sexo.equalsIgnore.case("H")){
+        } else if(sexo.equalsIgnore.Case("H")){
             return ="H";
 
         }
