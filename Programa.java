@@ -12,7 +12,7 @@ public class Programa {
     genero = validacaoGenero.genero();
 
     if (genero == "H") {
-      mensalidade = validacaoIdadeHomem.idadeValidacao();
+      mensalidade = validacaoIdadeHomem.IdadeValidacao();
     }
 
     else if (genero == "M") {
